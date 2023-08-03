@@ -19,7 +19,7 @@ contract HelperConfig is Script {
     //constants
     uint8 public constant DECIMALS = 8;
     int256 public constant INITIAL_PRICE = 2000e8;
-    uint256 SEPOLIA_CHAIN_ID = 111555111;
+    uint256 SEPOLIA_CHAIN_ID = 11155111;
 
     constructor() {
         if (block.chainid == SEPOLIA_CHAIN_ID) {
